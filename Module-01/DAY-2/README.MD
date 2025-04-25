@@ -63,6 +63,17 @@ public class Demo
 
 ## OUTPUT:
 
+```Python
+Input                   Expected          Got
+
+45                       true              true
+67
+
+124                      false             false 
+45      
+
+```
+
 
 
 
