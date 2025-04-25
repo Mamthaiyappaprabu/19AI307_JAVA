@@ -32,6 +32,16 @@ public class Student
     String name,address;
     int rollno;
 }
+public class Main {
+    public static void main(String[] args) {
+        Student obj= new Student();   
+        obj.name="John";
+        obj.address="Chennai";
+        obj.rollno=10;
+        System.out.println(obj.name+" "+obj.address+" "+obj.rollno);
+    }   
+}
+
 ```
 
 
