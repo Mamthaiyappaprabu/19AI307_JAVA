@@ -26,12 +26,27 @@ b)	Call the `display(8, 9)` method on the `ad` object
  ```
 /*
 Program to implement a access modifiers using Java
-Developed by: 
-RegisterNumber:  
+Developed by: MAMTHA I
+RegisterNumber: 212222230076  
 */
 ```
 
 ## Sourcecode.java:
+```Python
+public class A 
+{ 
+    private void display() 
+    { 
+        int a=8,b=9;
+        System.out.println(a+b); 
+    }
+    public static void main(String args[])
+    {
+        A obj = new A();
+        obj.display();
+    }
+}
+```
 
 
 
@@ -40,6 +55,13 @@ RegisterNumber:
 
 
 ## OUTPUT:
+```Python
+Expected        Got
+
+17              17
+
+```
+
 
 
 
